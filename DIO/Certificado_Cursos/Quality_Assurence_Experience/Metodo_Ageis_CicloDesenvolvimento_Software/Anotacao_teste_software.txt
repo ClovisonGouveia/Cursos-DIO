@@ -1,0 +1,43 @@
+Para iniciar uma análise de teste é necessário determinar um PLANO DE TESTE:
+
+Nível de Teste: Os seguintes atribulos são responsáveis por diferenciar os níveis de testes que são:
+
+     Objetivos específicos, Base de teste referenciada para derivar casos de teste, objeto de teste (ou seja, o que está sendo testado), Defeitos e falhas típicas, Abordagens e responsabilidades específicas.
+
+-Teste de Componestes (teste unitário)
+
+-Teste de integração
+
+-Teste  do sistema
+
+-Teste de aceite
+
+
+Tipo de Teste
+
+- Avaliar as Caracteristicas funcionais (o que o sistema faz - teste funcional)
+
+-Avaliar as caracteristicas não funcionais (quão bem o sistema comporta, confiabilidade, segurança, usabilidade)
+
+-Avaliiar se a estrutura ou arquitetura do componente ou sistema está correta, completa  e especificada.
+
+-Avaliar os efeitos das alterações
+
+Tecnica de Teste
+
+Os sete princíciops de teste de software segundo o CTFL
+
+
+1 - O teste mostra a presença de defeitos e não a sua ausência: 
+
+Testes exaustivos são impossíveis
+
+O teste inicial economiza tempo e dinheiro: (MeTODOLOGIAS - TDD)
+
+Os defeitos se agrupam: (Princípio de Pareto)
+
+Paradoxo do pesticida: (Perda da eficiência dos testes ao longo do tempo) (Teste de regressão automatizado?) 
+
+O teste depende do contexto (Os testes devem ser criados sempre levando em consideração do tipo de software que será verificado)
+
+Ausência de erros é uma ilusão
