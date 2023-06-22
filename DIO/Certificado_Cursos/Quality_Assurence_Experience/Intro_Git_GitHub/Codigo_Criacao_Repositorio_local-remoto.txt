@@ -1,0 +1,94 @@
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git
+$ git init
+Initialized empty Git repository in C:/Users/migra/OneDrive/Documentos/DEV/Git/.git/
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git config --global user.email "clovison.gouveia@gmail.com"
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git config --global user.name "ClovisonGouveia"
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git add *
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git commit -m "Primeiro_Commit_Projeto"
+[master (root-commit) d880dcc] Primeiro_Commit_Projeto
+ 13 files changed, 1568 insertions(+)
+ create mode 100644 "DIO/Certificado_Cursos/Quality_Assurence_Experience/Certifica\303\247\303\243o_CTFL/A6333013.pdf"
+ create mode 100644 "DIO/Certificado_Cursos/Quality_Assurence_Experience/Certifica\303\247\303\243o_CTFL/CAMINHO PARA CERTIFICA\303\207\303\203O CTFL.docx"
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Intro_Git_GitHub/282D2DEC.pdf
+ create mode 100644 "DIO/Certificado_Cursos/Quality_Assurence_Experience/Intro_Git_GitHub/Introdu\303\247\303\243o ao GIT e ao GithUB.docx"
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Metodo_Ageis_CicloDesenvolvimento_Software/87682365.pdf
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Metodo_Ageis_CicloDesenvolvimento_Software/Anotacao_teste_software.txt
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Metodo_Ageis_CicloDesenvolvimento_Software/ISO-IEC-IEEE-29119-1-2022 - Conceito Teste Software.pdf
+ create mode 100644 "DIO/Certificado_Cursos/Quality_Assurence_Experience/Metodo_Ageis_CicloDesenvolvimento_Software/O MANIFESTO \303\201GIL.docx"
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Metodo_Ageis_CicloDesenvolvimento_Software/Processos de Software.docx
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Metodo_Ageis_CicloDesenvolvimento_Software/syllabus_ctfl_3.1br.pdf
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Qualidade_SoftWare_Fundamentos/122B049A.pdf
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Qualidade_SoftWare_Intro/71EF5C1C.pdf
+ create mode 100644 DIO/Certificado_Cursos/Quality_Assurence_Experience/Qualidade_SoftWare_Mercado/7B330033.pdf
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git config -list
+error: did you mean `--list` (with two dashes)?
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+credential.http://191.252.102.37:7990.provider=bitbucket
+user.name=ClovisonGouveia
+user.email=clovison.gouveia@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git remote add Cursos-DIO https://github.com/ClovisonGouveia/Cursos-DIO.git
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (master)
+$ git branch -M main
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (main)
+$ git push -u Cursos-DIO main
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (24/24), 16.20 MiB | 5.22 MiB/s, done.
+Total 24 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/ClovisonGouveia/Cursos-DIO.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'Cursos-DIO/main'.
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (main)
+$ git status
+On branch main
+Your branch is up to date with 'Cursos-DIO/main'.
+
+nothing to commit, working tree clean
+
+migra@Acade-Migracao MINGW64 ~/OneDrive/Documentos/DEV/Git (main)
+$
